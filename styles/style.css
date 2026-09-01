@@ -19,12 +19,16 @@ nav {
 
 /* Logo */
 .logo {
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: 'Montserrat' , Arial, sans-serif;
     font-size: 30px;
     font-weight: 900;
     line-height: 1.6;
     letter-spacing: 0.02em;
     color: #0A1B32;
+}
+
+.logo-dot {
+    color: #4f56f1;
 }
 
 /* Navigation Links */
@@ -71,7 +75,7 @@ nav {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-decoration: none;
-    background-color: #5b4fe5;
+    background-color:#4f56f1;
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 6px;
@@ -120,13 +124,17 @@ nav {
     line-height: 32px;
     letter-spacing: 0.02em;
     text-decoration: none;
-    background-color: #5b4fe5;
+    background-color: #4f56f1;
     color: #ffffff;
     padding: 14px 30px;
     border-radius: 6px;
 }
 
 /* Image */
+.hero-image {
+    max-width: 550px;
+}
+
 .hero-image img {
     max-width: 100%;
     height: auto;
